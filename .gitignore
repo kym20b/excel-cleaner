@@ -34,3 +34,6 @@
 .vercel/
 node_modules/
 __pycache__/
+
+.vercel
+.env*
