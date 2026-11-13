@@ -1,0 +1,36 @@
+# 허용 목록 — 기본은 전부 올리지 않는다. 아래에 적은 것만 저장소(공개)에 올린다.
+# 새 파일을 만들어도 여기에 적기 전에는 올라가지 않는다.
+*
+
+# 저장소 설정과 안내
+!.gitignore
+!.vercelignore
+!README.md
+
+# 정리기 화면
+!index.html
+!app.js
+!clean.js
+!style.css
+!lib/
+!lib/*
+
+# 규칙 파일
+!rules/
+!rules/*.json
+
+# 예시 파일 (만들어낸 데이터)
+!data/
+!data/*.csv
+!data/*.xlsx
+
+# 정리 스크립트 (코드만)
+!정리/
+!정리/*.py
+
+# 허용 목록 안에 들어와도 올리지 않는다
+.env
+.env.*
+.vercel/
+node_modules/
+__pycache__/
